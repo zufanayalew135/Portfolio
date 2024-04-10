@@ -5,6 +5,17 @@ h4,
 h5 {
   font-family: "Playfair Display", serif;
 }
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+nav ul {
+  margin: 0;
+}
 .first {
   background: #f9f7fe;
   text-align: center;
