@@ -105,6 +105,15 @@ p {
 .about p {
   font-family: "poppins", sans-serif;
 }
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: #6c63ff;
+}
 @media (max-width: 960px) {
   h2 {
     font-size: 44px;
