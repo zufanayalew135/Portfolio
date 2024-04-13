@@ -12,14 +12,30 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
+  margin-left: 15px;
 }
 nav ul {
   margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: #6c63ff;
 }
 .first {
   background: #f9f7fe;
   text-align: center;
   padding: 160px 20px;
+}
+.logo {
+  max-height: 40px;
+}
+.first a {
+  margin-bottom: 40px;
 }
 .first p {
   font-size: 36px;
