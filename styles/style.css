@@ -5,6 +5,9 @@ h4,
 h5 {
   font-family: "Playfair Display", serif;
 }
+h4 {
+  font-size: 48px;
+}
 nav {
   padding: 20px 0;
 }
@@ -105,6 +108,18 @@ p {
 .about p {
   font-family: "poppins", sans-serif;
 }
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background: #f9f7fe;
+  padding: 30px 120px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
 footer .email-link {
   text-decoration: none;
   color: black;
@@ -114,6 +129,20 @@ footer .email-link {
 footer .email-link:hover {
   color: #6c63ff;
 }
+footer .social-links a {
+  margin: 0 20px;
+  color: #6c63ff;
+  background: #f9f7fe;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: #6c63ff;
+}
+
 @media (max-width: 960px) {
   h2 {
     font-size: 44px;
@@ -121,6 +150,9 @@ footer .email-link:hover {
   h1 {
     font-size: 44px;
     line-height: 1.5;
+  }
+  h4 {
+    font-size: 18px;
   }
   .description {
     padding: 0;
@@ -132,5 +164,8 @@ footer .email-link:hover {
   .about {
     padding: 0;
     text-align: center;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
