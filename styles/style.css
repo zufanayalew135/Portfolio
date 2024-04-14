@@ -32,7 +32,7 @@ nav li.active a {
 .first {
   background: #f9f7fe;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .logo {
   max-height: 40px;
@@ -67,7 +67,7 @@ h1 {
   line-height: 80px;
 }
 .about h2 {
-  font-size: 18px;
+  font-size: 22px;
   font-family: "poppins", sans-serif;
   font-weight: bold;
 }
@@ -154,6 +154,10 @@ footer .social-links a:hover {
   h4 {
     font-size: 18px;
   }
+  .container h1 {
+    font-size: 30px;
+  }
+
   .description {
     padding: 0;
     text-align: center;
